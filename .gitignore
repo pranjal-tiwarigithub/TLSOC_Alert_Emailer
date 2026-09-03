@@ -1,0 +1,13 @@
+.env
+state/
+logs/
+certs/
+.run.lock
+__pycache__/
+*.pyc
+
+# test artefacts, including the throwaway SMTP key the harness generates
+tests/smtp.*
+tests/*.json
+tests/*.env
+tests/*.log
